@@ -85,6 +85,16 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        transition: filter .2s;
+        cursor: pointer;
+
+        &:hover{
+            filter: brightness(.9);
+        }
+
+        img{
+            margin-right: 8px;
+        }
     }
 
     .separator{
